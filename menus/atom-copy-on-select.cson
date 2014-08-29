@@ -1,16 +1,16 @@
 # # See https://atom.io/docs/latest/creating-a-package#menus for more details
-# 'context-menu':
-#   '.overlayer':
-#       'Enable atom-copy-on-select': 'atom-copy-on-select:toggle'
-#
-# 'menu': [
-#   {
-#     'label': 'Packages'
-#     'submenu': [
-#       'label': 'atom-copy-on-select'
-#       'submenu': [
-#         { 'label': 'Toggle', 'command': 'atom-copy-on-select:toggle' }
-#       ]
-#     ]
-#   }
-# ]
+'context-menu':
+  '.overlayer':
+      'Enable atom-copy-on-select': 'atom-copy-on-select:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-copy-on-select'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'atom-copy-on-select:toggle' }
+      ]
+    ]
+  }
+]
