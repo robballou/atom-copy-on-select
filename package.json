@@ -1,0 +1,14 @@
+{
+  "name": "atom-copy-on-select",
+  "main": "./lib/atom-copy-on-select",
+  "version": "1.0.0",
+  "description": "Copy selections",
+  "activationEvents": ["atom-copy-on-select:toggle"],
+  "repository": "https://github.com/robballou/atom-copy-on-select",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
