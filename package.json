@@ -1,13 +1,12 @@
 {
   "name": "atom-copy-on-select",
   "main": "./lib/atom-copy-on-select",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Automatically copy the selected text",
   "repository": "https://github.com/robballou/atom-copy-on-select",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
