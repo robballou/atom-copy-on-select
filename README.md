@@ -18,3 +18,23 @@ See: https://github.com/robballou/atom-copy-on-select/
     popd
 
 You likely need to restart atom or reload views.
+
+## Configuration
+
+There are a couple of configuration options currently:
+
+### delay
+
+The package works on a delay (to make sure you're done selecting things) which
+is normally 1000ms. This can be changed with:
+
+    "atom-copy-on-select":
+      delay: 800
+
+### copyOnMultipleSelections
+
+By default, the package will not copy text if you've made multiple selections.
+You can enable this if you want. Only the most recent selection is copied.
+
+    "atom-copy-on-select":
+      copyOnMultipleSelections: true
