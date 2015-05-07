@@ -1,7 +1,10 @@
 # # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable atom-copy-on-select': 'atom-copy-on-select:toggle'
+    [{
+      label: 'Enable atom-copy-on-select',
+      command: 'atom-copy-on-select:toggle'
+    }]
 
 'menu': [
   {
